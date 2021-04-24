@@ -37,8 +37,8 @@ jobs:
        
        - name: Setting up ErfanGSI requirements
          run: |
+              sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
-              mkdir ./output
               sudo bash setup.sh
        
        - name: Download Stock Rom & Generate GSI
