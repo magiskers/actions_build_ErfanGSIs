@@ -38,7 +38,7 @@ jobs:
          
        - name: Initialization environment
          run: |
-            sudo -E apt-get -qq uodate
+            sudo -E apt-get -qq update
             sudo -E apt-get -qq install git openjdk-8-jdk wget
        
        - name: Clone ErfanGSI Source Code
