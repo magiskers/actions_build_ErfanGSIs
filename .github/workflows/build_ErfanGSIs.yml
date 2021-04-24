@@ -51,7 +51,7 @@ jobs:
        - name: Zip GSI  
          run: |
               mkdir final
-              zip -r final/GSI.zip /home/runner/
+              zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs
        
        - name: Upload GSI to BitSend
          run: |
